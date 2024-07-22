@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="914e8948-64c8-48ac-ab86-68609dd10834" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eska/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/webUI.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/cartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/dataEntryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/homePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/loginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/overviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDef/cartStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDef/dataEntryStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDef/homeStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDef/hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDef/loginStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDef/overviewStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilties/utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/cucumber-api-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +52,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Scenario: Checkout item by filling name and zip code data (positive).executor": "Run",
+    "Cucumber Java.Scenario: Checkout item without filling name and zip code data (negative).executor": "Run",
     "Cucumber Java.Scenario: Login with invalid username and password (negative).executor": "Run",
+    "Cucumber Java.Scenario: Login with invalid username and/or password (negative).executor": "Run",
     "Cucumber Java.Scenario: Login with valid username and password (positive).executor": "Run",
+    "Cucumber Java.Scenario: Login without username and/or password (negative).executor": "Run",
+    "Cucumber Java.Scenario: add item to cart (positive).executor": "Run",
+    "Cucumber Java.Scenario: remove item from cart (positive).executor": "Run",
     "Gradle.Build WEB_UI_AutomationTesting_SwagLabs.executor": "Run",
     "Gradle.WEB_UI_AutomationTesting_SwagLabs [:utility.main()].executor": "Run",
     "Gradle.WEB_UI_AutomationTesting_SwagLabs [:webUIBaseTest.main()].executor": "Run",
