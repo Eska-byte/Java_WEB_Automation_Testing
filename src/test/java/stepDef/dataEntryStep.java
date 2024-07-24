@@ -40,6 +40,4 @@ public class dataEntryStep {
     public void userInputZipCodeTextboxWith(String zipCode) {
         DataEntryPage.inputZipCode(zipCode);
     }
-
-
 }

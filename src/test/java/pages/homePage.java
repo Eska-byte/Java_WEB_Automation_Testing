@@ -12,7 +12,6 @@ public class homePage extends utility {
         return By.xpath("//span[@class='shopping_cart_badge'][contains(text(),'"+item+"')]");
     }
     By remove_button = By.xpath("(//*[text()='Remove'])[1]");
-//    By iconCart = By.xpath("//span[@class='shopping_cart_badge']");
     By cart_icon = By.xpath("//*[@class='shopping_cart_link']");
 
     public void validateHomepage() {
@@ -26,20 +25,7 @@ public class homePage extends utility {
 
     public void validateNumberOfItems(String item){
         driver.findElement(iconCart(item)).isDisplayed();
-//        String expectedItem = cartItem;
-//        String actualItem =
-//                driver.findElement(iconCart).getText();
-//                driver.findElement(iconCart).isDisplayed();
 
-//        assertEquals(actualItem).isEqualTo(expectedItem);
-
-//        assertThat(actualItem).isEqualTo(expectedItem);
-//        assertThat(actualItem).isEqualTo(expectedItem);
-//        assertThat(actualItem).isEqualTo(expectedItem);
-//        assertThat(actualItem).equals(expectedItem);
-
-
-//        Assertions.assertThat(itemActual).isEqualTo(itemsExpected);
     }
     public void clickRemoveButton(){
         driver.findElement(remove_button).click();

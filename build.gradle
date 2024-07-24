@@ -19,7 +19,6 @@ dependencies {
 
     implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.18.0'
     testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.18.0'
-    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.26.0'
 }
 
 test {

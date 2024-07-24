@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="914e8948-64c8-48ac-ab86-68609dd10834" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/reports/cucumber-api-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-api-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-api-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/homePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,29 +51,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Scenario: Checkout item by filling name and zip code data (positive).executor": "Run",
-    "Cucumber Java.Scenario: Checkout item without filling name and zip code data (negative).executor": "Run",
-    "Cucumber Java.Scenario: Login with invalid username and password (negative).executor": "Run",
-    "Cucumber Java.Scenario: Login with invalid username and/or password (negative).executor": "Run",
-    "Cucumber Java.Scenario: Login with valid username and password (positive).executor": "Run",
-    "Cucumber Java.Scenario: Login without username and/or password (negative).executor": "Run",
-    "Cucumber Java.Scenario: add item to cart (positive).executor": "Run",
-    "Cucumber Java.Scenario: remove item from cart (positive).executor": "Run",
-    "Gradle.Build WEB_UI_AutomationTesting_SwagLabs.executor": "Run",
-    "Gradle.WEB_UI_AutomationTesting_SwagLabs [:utility.main()].executor": "Run",
-    "Gradle.WEB_UI_AutomationTesting_SwagLabs [:webUIBaseTest.main()].executor": "Run",
-    "Gradle.runner.executor": "Run",
-    "JUnit.Unnamed.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/eska/Downloads/ideaproject/WEB_UI_AutomationTesting_SwagLabs",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Scenario: Checkout item by filling name and zip code data (positive).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Checkout item without filling name and zip code data (negative).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login with invalid username and password (negative).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login with invalid username and/or password (negative).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login with valid username and password (positive).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login without username and/or password (negative).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: add item to cart (positive).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: remove item from cart (positive).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build WEB_UI_AutomationTesting_SwagLabs.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WEB_UI_AutomationTesting_SwagLabs [:utility.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WEB_UI_AutomationTesting_SwagLabs [:webUIBaseTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.runner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/eska/Downloads/ideaproject/WEB_UI_AutomationTesting_SwagLabs&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="runner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
